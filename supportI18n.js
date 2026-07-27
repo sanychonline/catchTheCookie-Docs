@@ -913,7 +913,7 @@
   const select = document.querySelector("#language-select");
 
   function apply(locale, updateUrl = true) {
-    const strings = translations[locale] || translations.uk;
+    const strings = translations[locale] || translations.en;
     document.documentElement.lang = locale;
     document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
     document.title = strings.support + " — " + (locale === "uk" ? productNames.uk : productNames.en);
