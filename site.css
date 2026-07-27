@@ -1160,3 +1160,15 @@ h1 {
     max-width: 42vw;
   }
 }
+
+/* Shared support and legal pages use Catch the Cookie's warm cookie palette. */
+.topbar, .home .topbar { background: rgba(91, 54, 31, .94); }
+body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(237, 187, 105, .32), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(132, 177, 157, .28), transparent 24rem), linear-gradient(180deg, #FFFDF7, #F7E8CB 55%, #E6D5B8); }
+.legal-hero { background: radial-gradient(circle at 82% 16%, rgba(237, 187, 105, .48), transparent 23rem), linear-gradient(145deg, #523728, #A46138 54%, #E9BD70); }
+.summary { border-color: rgba(164, 97, 56, .3); background: rgba(237, 187, 105, .22); }
+.toc, .stat-card, .faq details { border-color: rgba(164, 97, 56, .22); background: rgba(255, 251, 242, .8); }
+.faq details[open] { background: #FFFFFF; box-shadow: 0 14px 36px rgba(82, 55, 40, .12); }
+.document p, .document li, .faq-answer { color: #604B3C; }
+.page-card { background: linear-gradient(145deg, #523728, #9B5E38 56%, #D7A655); }
+.page-card::after { color: #D5E7B4; }
+.footer { background: #342219; }
